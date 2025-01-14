@@ -1,4 +1,49 @@
 html {
-    font-family:Arial, Helvetica, sans-serif; background-color: lightgrey;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
+body {
+    background-color: lightgrey;
+
+}
+
+/*Header*/
+header h1 {
+    font-weight:lighter;
+    font-size: 30px;
+    margin-top: 20px;
+    color: grey;
+    
+
+}
+
+header #logo {
+    margin-left: 32px;
+    background-color: white;
+    height: 78px;
+}
+
+header .top-container {
+    background-color: white;
+    position:fixed;
+    height: 64x;
+    display: inline-flex;
+    width: 90%;
+    margin-top: 0%;
+    border-bottom: 1px solid lightgray;
+
+}
+
+header ul {
+    margin: 30px auto;
+    text-align: center;
+
+}
+
+header li {
+    font-size: 16px;
+    font-weight: 300;
+    display: inline-block;
+    width:100px;  
+    margin-right: 0;
+}
